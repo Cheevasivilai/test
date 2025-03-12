@@ -16,9 +16,9 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 public class Date {
-  private final int day;
-  private final int month;
-  private final int year;
+  private final int tag;
+  private final int monat;
+  private final int jahr;
 
   /**
    * Retrieves the day component of this date.
@@ -56,9 +56,9 @@ public class Date {
    *     to pass).
    */
   public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
   }
 
   /**
@@ -87,5 +87,5 @@ public class Date {
   public void methodAddedByOwner() {
   System.out.println("method added by owner")
 }
-
+""
 }
